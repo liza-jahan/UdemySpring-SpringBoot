@@ -30,4 +30,5 @@ public class AlienController {
 		Alien alien = repo.findById(aid).orElse(new Alien(0,""));
 		return alien;
 	}
+	// postman thake localhost:8080/alien/(104 or any number) diya run krte hobe
 }
