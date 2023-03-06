@@ -1,0 +1,64 @@
+2023-03-06T12:13:34.274+06:00  INFO 14820 --- [main] c.l.s.FirstSpringbootMvcApplication      : Starting FirstSpringbootMvcApplication using Java 17.0.5 with PID 14820 (C:\Users\HP\OneDrive\Desktop\important\New folder\FirstSpringbootMVC\target\classes started by HP in C:\Users\HP\OneDrive\Desktop\important\New folder\FirstSpringbootMVC)
+2023-03-06T12:13:34.277+06:00  INFO 14820 --- [main] c.l.s.FirstSpringbootMvcApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-06T12:13:34.700+06:00  INFO 14820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-06T12:13:34.746+06:00  INFO 14820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-03-06T12:13:35.230+06:00  INFO 14820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-06T12:13:35.240+06:00  INFO 14820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-06T12:13:35.240+06:00  INFO 14820 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06T12:13:35.434+06:00  INFO 14820 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-03-06T12:13:35.438+06:00  INFO 14820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-06T12:13:35.438+06:00  INFO 14820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1127 ms
+2023-03-06T12:13:35.558+06:00  INFO 14820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-06T12:13:35.884+06:00  INFO 14820 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63124022
+2023-03-06T12:13:35.887+06:00  INFO 14820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-06T12:13:35.933+06:00  INFO 14820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-06T12:13:35.995+06:00  INFO 14820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-06T12:13:36.199+06:00  WARN 14820 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-06T12:13:36.344+06:00  INFO 14820 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-06T12:13:36.344+06:00  WARN 14820 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-06T12:13:36.961+06:00  INFO 14820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-06T12:13:36.971+06:00  INFO 14820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T12:13:37.467+06:00  WARN 14820 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-06T12:13:37.606+06:00  INFO 14820 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-06T12:13:37.797+06:00  INFO 14820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06T12:13:37.804+06:00  INFO 14820 --- [main] c.l.s.FirstSpringbootMvcApplication      : Started FirstSpringbootMvcApplication in 3.837 seconds (process running for 4.448)
+2023-03-06T12:14:21.148+06:00  INFO 14820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06T12:14:21.148+06:00  INFO 14820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-06T12:14:21.149+06:00  INFO 14820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-06T12:14:21.178+06:00  INFO 14820 --- [http-nio-8080-exec-1] com.luv2code.spring.LoggingAspect        : getAlien method called
+2023-03-06T12:14:21.276+06:00  INFO 14820 --- [http-nio-8080-exec-1] com.luv2code.spring.LoggingAspect        : getAlien method Executed
+2023-03-06T12:16:46.634+06:00  INFO 14820 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-06T12:16:46.652+06:00  INFO 14820 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-06T12:16:46.653+06:00  INFO 14820 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-06T12:16:46.662+06:00  INFO 14820 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T12:16:46.663+06:00  INFO 14820 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-06T12:16:46.670+06:00  INFO 14820 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-06T12:16:48.510+06:00  INFO 1084 --- [main] c.l.s.FirstSpringbootMvcApplication      : Starting FirstSpringbootMvcApplication using Java 17.0.5 with PID 1084 (C:\Users\HP\OneDrive\Desktop\important\New folder\FirstSpringbootMVC\target\classes started by HP in C:\Users\HP\OneDrive\Desktop\important\New folder\FirstSpringbootMVC)
+2023-03-06T12:16:48.512+06:00  INFO 1084 --- [main] c.l.s.FirstSpringbootMvcApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-06T12:16:48.930+06:00  INFO 1084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-06T12:16:48.971+06:00  INFO 1084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-03-06T12:16:49.400+06:00  INFO 1084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-06T12:16:49.407+06:00  INFO 1084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-06T12:16:49.408+06:00  INFO 1084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06T12:16:49.556+06:00  INFO 1084 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-03-06T12:16:49.560+06:00  INFO 1084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-06T12:16:49.560+06:00  INFO 1084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1011 ms
+2023-03-06T12:16:49.652+06:00  INFO 1084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-06T12:16:49.885+06:00  INFO 1084 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6615237
+2023-03-06T12:16:49.887+06:00  INFO 1084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-06T12:16:49.917+06:00  INFO 1084 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-06T12:16:49.952+06:00  INFO 1084 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-06T12:16:50.081+06:00  WARN 1084 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-06T12:16:50.195+06:00  INFO 1084 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-06T12:16:50.195+06:00  WARN 1084 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-06T12:16:50.659+06:00  INFO 1084 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-06T12:16:50.666+06:00  INFO 1084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06T12:16:51.062+06:00  WARN 1084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-06T12:16:51.173+06:00  INFO 1084 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-06T12:16:51.323+06:00  INFO 1084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06T12:16:51.329+06:00  INFO 1084 --- [main] c.l.s.FirstSpringbootMvcApplication      : Started FirstSpringbootMvcApplication in 3.125 seconds (process running for 3.636)
+2023-03-06T12:16:58.315+06:00  INFO 1084 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06T12:16:58.315+06:00  INFO 1084 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-06T12:16:58.316+06:00  INFO 1084 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-06T12:16:58.338+06:00  INFO 1084 --- [http-nio-8080-exec-4] com.luv2code.spring.LoggingAspect        : getAlien method called
+2023-03-06T12:16:58.420+06:00  INFO 1084 --- [http-nio-8080-exec-4] com.luv2code.spring.LoggingAspect        : getAlien method Executed
